@@ -1,0 +1,106 @@
+#Credit {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+}
+
+.flex-row {
+    display: flex;
+    /* justify-content: center;
+    align-content: center; */
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .border {
+    border: solid red 2px;
+} */
+
+.left {
+    width: 300px;
+    height: 600px;
+    background-image: url("../design/images/bg-main-desktop.png");
+    background-repeat: none;
+    background-size: contain;
+    margin-right: 100px;
+}
+
+
+.right {
+    /* padding-left: 100px; */
+    padding-left: 100px;
+    width: 400px;
+    margin-top: 100px;
+}
+
+.form {
+     justify-content: flex-start;
+     align-content: flex-end;
+     width: 400px;
+}
+
+/* p {
+    font-size: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.card-submit {
+    background-color: #230930;
+    color: white;
+    height: 50px;
+}
+
+.red {
+    color: #ffa7a5;
+}
+
+.credit-error {
+height: 20px;
+
+}
+
+.credit-frontCard {
+    position: relative;
+    top: 70px;
+    left: 130px;
+}
+
+.credit-backCard {
+    position: relative;
+    top: 100px;
+    left: 180px;
+}
+
+.credit-text {
+color: white;
+z-index: 2;
+position: relative;
+top: 120px;
+left: 20px;
+letter-spacing: 2px;
+}
+
+.credit-name {
+    font-size: 2px !important;
+}
+
+.lower-card {
+    position: relative;
+    bottom: 77px;
+    left: 200px;
+}
+
+/* .input {
+    border-radius: 20px;
+} */
